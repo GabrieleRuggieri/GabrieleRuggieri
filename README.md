@@ -56,6 +56,4 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/GabrieleRuggieri/GabrieleRuggieri/output/snake.svg" alt="Snake animation" />
-
 ###
