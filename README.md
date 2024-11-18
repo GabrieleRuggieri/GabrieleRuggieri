@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">My name is Gabriele Ruggieri and I'm a Fullstack Developer, from Italy!</p>
+<p align="left">My name is Gabriele Ruggieri and I'm a Software Engineer, from Italy!</p>
 
 ###
 
