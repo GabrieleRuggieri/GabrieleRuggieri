@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">My name is Gabriele Ruggieri, and I’m a passionate Software Engineer from Italy! I specialize in designing and building robust, scalable, and efficient software solutions. With a strong foundation in backend development, I enjoy crafting seamless user experiences by integrating modern technologies like Spring Boot and React.
+<p align="left">My name is Gabriele Ruggieri, and I’m a Software Engineer from Italy! I specialize in designing and building robust, scalable, and efficient software solutions. With a strong foundation in backend development, I enjoy crafting seamless user experiences by integrating modern technologies like Spring Boot, Quarkus and React.
 
 I have a keen interest in exploring innovative tech solutions, optimizing performance, and building applications that make an impact. When I’m not coding, you might find me diving into the latest trends in software engineering, learning about emerging technologies, or working on personal projects to expand my skill set.
 
