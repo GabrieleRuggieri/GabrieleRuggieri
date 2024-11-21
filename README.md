@@ -90,5 +90,3 @@ Being detail-oriented and committed to excellence, I thrive on solving complex p
 </div>
 
 ###
-
-![](https://github-trophies.vercel.app/?username=GabrieleRuggieri)
