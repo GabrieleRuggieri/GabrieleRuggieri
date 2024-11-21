@@ -77,9 +77,3 @@ Being detail-oriented and committed to excellence, I thrive on solving complex p
 </div>
 
 ###
-
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/snake.svg" alt="Snake animation" />
-
-###
