@@ -90,3 +90,5 @@ Being detail-oriented and committed to excellence, I thrive on solving complex p
 </div>
 
 ###
+
+[![trophy](https://github-profile-trophy.vercel.app/?GabrieleRuggieri=ryo-ma)](https://github.com/ryo-ma/github-profile-trophy)
