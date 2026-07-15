@@ -18,77 +18,79 @@ I like making those things legible.
 <br>
 
 ```
-                    ┌──────────────────────────────┐
-                   ╱│                              │╲
-                  ╱ │   $ whoami                   │ ╲
-                 ╱  │   > gabriele                 │  ╲
-                ╱   │                              │   ╲
-               ╱    │   $ status                   │    ╲
-              ╱     │   > online — building things  │     ╲
-             ╱      │                              │      ╲
-            ╱       │   [██████████████░░░░░] 68%  │       ╲
-           ╱        │   compiling clarity...       │        ╲
-          ╱         └──────────────────────────────┘         ╲
-         ╱══════════════════════╤══════════════════════════════╲
-        ╱                       │                                ╲
-       ╱                        █                                 ╲
-      ╱                    ┌────┴────┐                              ╲
-     ╱                    ╱           ╲                              ╲
-    ╱____________________╱             ╲____________________________ ╲
-   ╱                    ╱               ╲                              ╲
-  ╱____________________╱_________________╲______________________________╲
- [░][░][░][░][░][░][░][░][░][░][░][░][░][░][░][░][░][░][░][░][░][░][░][░]
+                  ┌─────────────────────────────────────────────────┐
+                  │ ●  ●  ●                    gabriele@dev — zsh    │
+                  ├─────────────────────────────────────────────────┤
+                  │                                                   │
+                  │  gabriele@dev ~ % whoami                          │
+                  │  > gabriele — software engineer, italy            │
+                  │                                                   │
+                  │  gabriele@dev ~ % cat status                      │
+                  │  > online — building things                       │
+                  │                                                   │
+                  │  gabriele@dev ~ % _                               │
+                  │                                                   │
+                  └─────────────────────────────────────────────────┘
+                 ╱‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾╲
+                ╱═══════════════════════════════════════════════════╲
+               ╱                                                       ╲
+              ╱_________________________________________________________╲
+              ╲___________________________╤_____________________________╱
+                                          ‾‾‾
 ```
 
 <br>
 
-## 🎮 PLAYER PROFILE
+## 🖥️ ~/profile
 
-```
-╔══════════════════════════════════════════════════════════════════╗
-║  NAME     : Gabriele                                              ║
-║  CLASS    : Software Engineer                                     ║
-║  ORIGIN   : Italy                                                 ║
-║  ROLE     : Systems Legibility Specialist                         ║
-║  LEVEL    : 27                                                    ║
-║  XP       : [████████████████████░░░░░░░░░░] 71 / 100             ║
-║  STATUS   : ● Online — actively building                          ║
-╚══════════════════════════════════════════════════════════════════╝
-```
-
-### ⚔️ Skill Tree
-
-```
-┌─ Developer Tooling ───────────────────────────────── LV 8 ─┐
-│  ████████████████████████████████████░░░░░░░░  76%          │
-└──────────────────────────────────────────────────────────┘
-┌─ AI-Augmented Systems ────────────────────────────── LV 7 ─┐
-│  ██████████████████████████████░░░░░░░░░░░░░░  68%          │
-└──────────────────────────────────────────────────────────┘
-┌─ Code Analysis & Impact Reasoning ────────────────── LV 6 ─┐
-│  ██████████████████████████░░░░░░░░░░░░░░░░░░  61%          │
-└──────────────────────────────────────────────────────────┘
-┌─ System Observability ────────────────────────────── LV 6 ─┐
-│  █████████████████████████░░░░░░░░░░░░░░░░░░░░  58%          │
-└──────────────────────────────────────────────────────────┘
+```bash
+$ cat profile.yaml
+------------------------------------------------------------
+name        : Gabriele
+role        : Software Engineer
+location    : Italy
+focus       : Systems legibility — dev tooling, AI agents, observability
+status      : online — actively building
+------------------------------------------------------------
 ```
 
-### 🧭 Current Quest
+## 📦 ~/skills — installing...
 
-```
-> OBJECTIVE   : Make complex systems easier to navigate and change
-> LOCATION    : Codebases nobody fully understands
-> DIFFICULTY   : ★★★★☆
-> REWARD       : Clarity
+```bash
+$ ./install-skills.sh
+
+  Developer Tooling                 [████████████████░░░░]  76%   OK
+  AI-Augmented Systems              [██████████████░░░░░░]  68%   OK
+  Code Analysis & Impact Reasoning  [████████████░░░░░░░░]  61%   OK
+  System Observability              [████████████░░░░░░░░]  58%   OK
+
+  4 packages installed successfully.
 ```
 
-### 🎒 Inventory
+## 🧭 ~/quest — current task
 
+```bash
+$ cat TODO.md
+
+  [ ] Make complex systems easier to navigate and change
+  [ ] Location  : codebases nobody fully understands
+  [ ] Priority  : high
+  [ ] Reward    : clarity
 ```
-[ 🛠️  Dev Tooling Kit ]   [ 🤖 AI Agent Toolkit ]   [ 🔍 Code Analyzer ]
-[ 📊 Observability Lens ]  [ 🧩 Impact Mapper ]      [ ⚙️ Workflow Debugger ]
+
+## 🎒 ~/toolkit
+
+```bash
+$ ls -la ~/toolkit
+
+  drwxr-xr-x  dev-tooling-kit/
+  drwxr-xr-x  ai-agent-toolkit/
+  drwxr-xr-x  code-analyzer/
+  drwxr-xr-x  observability-lens/
+  drwxr-xr-x  impact-mapper/
+  drwxr-xr-x  workflow-debugger/
 ```
 
 <br>
 
-<p align="center"><sub>Press <b>[F5]</b> to refresh — new builds pushed daily.</sub></p>
+<p align="center"><sub>$ watch -n 86400 ./push-new-builds.sh &nbsp;&nbsp;— new builds pushed daily.</sub></p>
