@@ -18,9 +18,9 @@ I like making those things legible.
 <br>
 
 ```
-                  ┌─────────────────────────────────────────────────┐
-                  │ ●  ●  ●                    gabriele@dev — zsh    │
-                  ├─────────────────────────────────────────────────┤
+                  ┌─────────────────────────────────────────────────--┐
+                  │ ●  ●  ●                    gabriele@dev — zsh     │
+                  ├─────────────────────────────────────────────────--┤
                   │                                                   │
                   │  gabriele@dev ~ % whoami                          │
                   │  > gabriele — software engineer, italy            │
@@ -30,21 +30,14 @@ I like making those things legible.
                   │                                                   │
                   │  gabriele@dev ~ % _                               │
                   │                                                   │
-                  └─────────────────────────────────────────────────┘
-                 ╱‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾╲
-                ╱═══════════════════════════════════════════════════╲
-               ╱                                                       ╲
-              ╱_________________________________________________________╲
-              ╲___________________________╤_____________________________╱
-                                          ‾‾‾
+                  └─────────────────────────────────────────────────--┘
 ```
 
 <br>
 
-## 🖥️ ~/profile
+🖥️ ~/profile
 
-```bash
-$ cat profile.yaml
+bash$ cat profile.yaml
 ------------------------------------------------------------
 name        : Gabriele
 role        : Software Engineer
@@ -52,36 +45,35 @@ location    : Italy
 focus       : Systems legibility — dev tooling, AI agents, observability
 status      : online — actively building
 ------------------------------------------------------------
-```
 
-## 📦 ~/skills — installing...
+🧩 ~/competencies
 
-```bash
-$ ./install-skills.sh
+bash$ cat skills.txt
 
-  Developer Tooling                 [████████████████░░░░]  76%   OK
-  AI-Augmented Systems              [██████████████░░░░░░]  68%   OK
-  Code Analysis & Impact Reasoning  [████████████░░░░░░░░]  61%   OK
-  System Observability              [████████████░░░░░░░░]  58%   OK
+  Developer Tooling
+    → CLI tools, build/dev workflows, internal platforms
 
-  4 packages installed successfully.
-```
+  AI-Augmented Systems
+    → agent design, LLM-based tooling, human-AI workflows
 
-## 🧭 ~/quest — current task
+  Code Analysis & Impact Reasoning
+    → static/dynamic analysis, dependency and change-impact mapping
 
-```bash
-$ cat TODO.md
+  System Observability
+    → logging, tracing, debugging complex/distributed systems
+
+🧭 ~/current-focus
+
+bash$ cat TODO.md
 
   [ ] Make complex systems easier to navigate and change
-  [ ] Location  : codebases nobody fully understands
+  [ ] Target    : codebases nobody fully understands
   [ ] Priority  : high
-  [ ] Reward    : clarity
-```
+  [ ] Outcome   : clarity
 
-## 🎒 ~/toolkit
+🎒 ~/toolkit
 
-```bash
-$ ls -la ~/toolkit
+bash$ ls -la ~/toolkit
 
   drwxr-xr-x  dev-tooling-kit/
   drwxr-xr-x  ai-agent-toolkit/
@@ -89,8 +81,6 @@ $ ls -la ~/toolkit
   drwxr-xr-x  observability-lens/
   drwxr-xr-x  impact-mapper/
   drwxr-xr-x  workflow-debugger/
-```
 
 <br>
-
 <p align="center"><sub>$ watch -n 86400 ./push-new-builds.sh &nbsp;&nbsp;— new builds pushed daily.</sub></p>
